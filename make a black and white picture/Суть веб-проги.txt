@@ -1,0 +1,4 @@
+ѕри клике программа делает черно-белую версию выбранной картинки. ∆елательно тестировать создав локальный сервер. я использовал NodeJs command prompt (
+npm install http-server -g 
+ http-server [путь]). 
+»спользовано: HTML5 Canvas, JavaScript
