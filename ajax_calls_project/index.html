@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Moving Companion</title>
+    
+    <link rel="stylesheet" type="text/css"
+      href="https://fonts.googleapis.com/css?family=Rancho&effect=outline">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-image: url(img/3.jpg);" class="mybody">
+    
+<form class="form-inline form-container" id="form-container">
+  <div class="form-group">
+    <label for="city">City: </label>
+    <input type="text" class="form-control" id="city" placeholder="Enter city">
+  </div>
+  <div class="form-group">
+    <label for="street">Street: </label>
+    <input type="text" class="form-control" id="street" placeholder="Enter street">
+  </div>
+  <button type="submit" class="btn btn-success">Search</button>
+</form>
+    <hr>
+
+    <div id="greeting" class="greeting font-effect-outline"><h3>Where do you want to live?</h3></div>
+    
+    <div id="main">
+    <div class="wikipedia-container">
+        <h3 id="wikipedia-header" class="font-effect-outline">Relevant Wikipedia Links</h3>
+        <ul id="wikipedia-links">Type in an address above and find relevant Wikipedia articles here!</ul>
+    </div>
+
+
+    <div class="nytimes-container">
+        <h3 id="nytimes-header" class="font-effect-outline">New York Times Articles</h3>
+        <div id="nytimes-articles" style="display: block;">What's going on in your new city? Enter an address and hit submit and the NY Times will tell you here!
+          
+        </div>
+    </div>
+    </div>
+    
+  
+
+    <script src="js/libs/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    
+    
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
